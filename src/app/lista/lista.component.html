@@ -3,6 +3,6 @@
 <ul>
 
   <li *ngFor="let alumnos of alumnos; let i = index">
-  <span> {{i + 1}} - {{alumnos}}</span>
+  <span> {{i + 1}} - {{alumnos | uppercase}}</span>
   </li>
 </ul>
